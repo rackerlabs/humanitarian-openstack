@@ -101,3 +101,7 @@ If you have issues while installing paramiko using pip (in Mac or Linux), build 
 	  ```
 	  sudo ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future easy_install ./
 	  ```
+
+
+If you get error installing paramiko (pycrypto error) try  "aptitude install python-dev"
+
