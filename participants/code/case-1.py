@@ -4,6 +4,8 @@ from oslogger import log
 from db_node import DBServer
 from ha_node import HAProxyServer
 from web_node import WebServer
+import libcloud.security
+libcloud.security.VERIFY_SSL_CERT = False
 
 if __name__ == "__main__":
     config = get_config()

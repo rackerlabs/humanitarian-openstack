@@ -56,6 +56,11 @@ vi libcloud.conf
 ```
 vi case-1.py
 ```
++ Insert the following two lines under the imports section:
+```
+import libcloud.security
+libcloud.security.VERIFY_SSL_CERT = False
+```
 + Finally, execute the code:
 ```
 python case-1.py
