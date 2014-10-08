@@ -1,6 +1,10 @@
 Welcome to the OpenStack Humanitarian workshop!
 ===============================================
 
+Purpose
+-------
+The purpose of this tutorial is to deploy a webservice using libcloud and openstack.
+
 Installing pre-requisites
 -------------------------
 
