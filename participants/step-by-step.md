@@ -48,7 +48,7 @@ cd humanitarian-openstack/participants/code
 ```
 pip install -r requirements.txt
 ```
-+ Create a 'libcloud.conf' file by coyping configuration template and paying attention to the name:
++ Create a 'libcloud.conf' file by copying configuration template and paying attention to the name:
 ```
 cp libcloud.conf.template libcloud.conf
 ```
