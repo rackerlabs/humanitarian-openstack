@@ -38,7 +38,6 @@ source venv/bin/activate
 + Get code for the application from GitHub:
 ```
 git clone https://github.com/rackerlabs/humanitarian-openstack
-cd humanitarian-openstack/participants/code/
 ```
 + Make sure you are in the humanitarian-openstack/participants/code directory:
 ```
